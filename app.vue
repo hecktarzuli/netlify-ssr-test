@@ -1,6 +1,7 @@
 <template>
   <div>
-    From Server: {{ test }}
+    From Server: {{ test }}<br/>
+    Refresh this page a couple of times, even view-source and refresh that.  You can see the test value keeps changing.
   </div>
 </template>
 <script setup>
